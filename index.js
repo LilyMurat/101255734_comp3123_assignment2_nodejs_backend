@@ -6,8 +6,8 @@ let EmployeeModel = require("./models/Employees")
 let app = express() 
 app.use(bodyParser.urlencoded({ extended: true })) 
 app.use(bodyParser.json()) 
-//mongodb+srv:// 
-mongoose.connect('mongodb+srv://', 
+//mongodb+srv://LaleMulati:Azmat520$&@cluster0.4xu6fb0.mongodb.net/?retryWrites=true&w=majority 
+mongoose.connect('mongodb+srv://LaleMulati:Azmat520$&@cluster0.4xu6fb0.mongodb.net/?retryWrites=true&w=majority', 
 { 
     useNewUrlParser: true, 
     useUnifiedTopology: true 
